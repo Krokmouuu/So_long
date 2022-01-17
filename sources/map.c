@@ -6,7 +6,7 @@
 /*   By: bleroy <bleroy@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 18:35:54 by bleroy            #+#    #+#             */
-/*   Updated: 2021/12/22 16:22:26 by bleroy           ###   ########.fr       */
+/*   Updated: 2022/01/17 12:07:08 by bleroy           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ int	checkwall(t_base *base)
 			c = 0;
 			while (base->map.ptr[lines][c])
 			{
-				if ((base->map.ptr[lines][0 + 1] != '1'
+				if ((base->map.ptr[lines][c] != '1'
 					&& base->map.ptr[lines][c] != '\n')
-					|| base->map.ptr[0][0] != '1')
+					|| base->map.ptr[0][1] != '1')
 					error("Top or Bottom wall invalid");
 				c++;
 			}
