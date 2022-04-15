@@ -1,4 +1,4 @@
-# So_long 
+# So_long k
 
 [![bleroy's 42 so_long Score](https://badge42.vercel.app/api/v2/cl20ljboz005009l98d0knx65/project/2452551)](https://github.com/JaeSeoKim/badge42)
 
